@@ -19,38 +19,54 @@
     ></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid col-6">
       <div class="row justify-content-center">
+
+<!-- HEAD TITULO -->
+
         <div
-          class="d-flex justify-content-center align-items-end fs-1 fw-bold font-monospace text-danger-emphasis box b1"
+          class="col- col-lg- d-flex justify-content-center align-items-end fs-1 fw-bold font-monospace text-danger-emphasis box b1"
         >
           Login Form
         </div>
+
+<!-- PARRAFO -->
+
         <div
-          class="col-12 col-lg-6 d-flex justify-content-center align-items-center fs-5 box b2"
+          class="col-6  d-flex justify-content-center align-items-center  fs-5 box b2"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit
           nobis illo earum nesciunt qui dolorem quia labore itaque.
         </div>
-        <div class="col-12 col-lg-7 d-flex justify-content-center align-items-center box b3">
+
+<!-- FORMULARIO -->
+
+        <div class="col-  d-flex justify-content-center align-items-center box b3">
             <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="d-flex justify-content-between  " >
+                <div> <strong class="h4">Login to our site</strong><br> Enter username and Pasword</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg></div>
+                <div class=" mb-3" >
+                  <input type="email" class="form-control" placeholder="Username" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" placeholder="Pasword" id="exampleInputPassword1">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary" type="button">Log in</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
               </form>            
         </div>
+
+<!-- LOGIN -->
+
         <div class="box b4">loggin</div>
+
+<!-- ENLACES -->
+
         <div class="box b5">Enlces</div>
       </div>
     </div>
