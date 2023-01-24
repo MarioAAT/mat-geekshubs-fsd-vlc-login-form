@@ -10,9 +10,6 @@ body{
     
 }
 
-.box{
-    border: solid 1px;
-}
 
 .b1{
     height: 20vh;
@@ -27,9 +24,9 @@ body{
 }
 
 .b4{
-    height: 5vh;
+    /* height: 5vh; */
 }
 
 .b5{
-    height: 10vh;
+    /* height: 10vh; */
 }
