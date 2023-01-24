@@ -1,0 +1,35 @@
+body{
+    background-image: url(../assets/Prodesco.jpg);
+    /* background-repeat: no-repeat; 
+    background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    
+}
+
+.box{
+    border: solid 1px;
+}
+
+.b1{
+    height: 20vh;
+}
+
+.b2{
+    height: 15vh;
+}
+
+.b3{
+    height: 50vh;
+}
+
+.b4{
+    height: 5vh;
+}
+
+.b5{
+    height: 10vh;
+}
